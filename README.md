@@ -1,0 +1,61 @@
+# Auto-Saving System (BlackRock Challenge)
+
+## 🚀 How to Run
+
+### Install
+npm install
+
+### Start Server
+node src/server.js
+
+Server runs on:
+http://localhost:5477
+
+---
+
+## 📌 API Endpoints
+
+### Transactions
+POST /blackrock/challenge/v1/transactions:parse  
+POST /blackrock/challenge/v1/transactions:validator  
+POST /blackrock/challenge/v1/transactions:filter  
+
+### Returns
+POST /blackrock/challenge/v1/returns:nps  
+POST /blackrock/challenge/v1/returns:index  
+
+### Performance
+GET /blackrock/challenge/v1/performance  
+
+---
+
+## ⚙️ Features
+
+- Auto-saving via expense rounding
+- q (fixed override), p (extra addition), k (grouping)
+- Inflation-adjusted returns
+- NPS and Index Fund calculations
+- Handles large datasets (up to 1M transactions)
+
+---
+
+## 🐳 Docker
+
+### Build
+docker build -t blk-hacking-ind-yash-janbandhu .
+
+### Run
+docker run -p 5477:5477 blk-hacking-ind-yash-janbandhu
+
+---
+
+## 🧠 Design
+
+- Modular architecture (controllers, services, utils)
+- Rule engine for temporal constraints
+- Scalable processing (O(n))
+
+---
+
+## 👨‍💻 Author
+Yash Janbandhu# auto-save-system
