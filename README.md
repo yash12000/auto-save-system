@@ -58,5 +58,18 @@ docker run -p 5477:5477 blk-hacking-ind-yash-janbandhu
 
 ---
 
+## 🌐 Live Deployment
+
+API is live at:
+
+https://auto-save-system.onrender.com
+
+### Health Check
+GET / → confirms server is running
+
+### Example APIs
+POST /blackrock/challenge/v1/returns:index  
+GET /blackrock/challenge/v1/performance  
+
 ## 👨‍💻 Author
-Yash Janbandhu# auto-save-system
+Yash Janbandhu # auto-save-system
