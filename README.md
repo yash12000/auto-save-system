@@ -5,13 +5,14 @@
 ### Install
 npm install
 
-### Start Server
-node src/server.js
+### 🌐 Start Server
 
-Server runs on:
+The application runs locally at:
+
 http://localhost:5477
 
----
+⚠️ Note:
+This is a local server URL and will only work after running the project on your machine or via Docker.
 
 ## 📌 API Endpoints
 
